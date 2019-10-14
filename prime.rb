@@ -7,6 +7,5 @@ def prime?(num)
   (2...num).each {|n| return false if % num===0}
   return true
   
-  end
   
 end
