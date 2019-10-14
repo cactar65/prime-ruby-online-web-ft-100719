@@ -2,6 +2,10 @@
 
 def prime?(num)
   
-  return false num < 2
+  return false if num < 2
+  
+  
+  
+  end
   
 end
