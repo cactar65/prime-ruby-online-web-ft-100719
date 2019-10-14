@@ -4,7 +4,7 @@ def prime?(num)
   
   return false if num < 2
   
-  (2...num).each {|n| return false if % n===0}
+  (2...num).each {|x| return false if % x===0}
   return true
   
   
